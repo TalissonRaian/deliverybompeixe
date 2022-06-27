@@ -172,6 +172,7 @@ body{
         flex-direction: column;
     }
     .cardapio{
+        display: flex;
         justify-content: center;
     }
    

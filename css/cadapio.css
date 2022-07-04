@@ -1,0 +1,112 @@
+.conteudo__principal{
+    text-align: center;
+}
+.cardapio__geral{
+    display: flex;
+    flex-direction: column;
+}
+.cardapio__titulo{
+    font-size: 50px;
+    color: brown;
+}
+.cardapio__itens{
+    text-align: center;
+    justify-content: center;
+}
+.cardapio__simples{
+    background-image: url(imagem/tambaqui1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px brown solid;
+    border-radius: 20px;  
+}
+.cardapio__completo{
+    background-image: url(imagem/tambaqui2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 2px brown solid;
+    border-radius: 20px;
+}
+.cardapio__simples, .cardapio__completo{
+    color: white;
+}
+.cardapio__descrição{
+    color: white;
+    padding: 0 0 20px;
+    font-family: monospace;
+    font-size: 17px;
+}
+.valor{
+    font-size: 30px;
+    margin: 2px;
+    color: white;
+}
+.banda-sem-espinha{
+    display: flex;
+
+}
+.descritens, a{
+    font-size: 15px;
+    color: brown;
+    text-decoration: none;  
+}
+.cardapio__simples:hover, .cardapio__completo:hover{
+    cursor: pointer;
+    width: 500px;
+    height: 500px;
+    transform: scale(1.0);
+}
+@media screen and (min-width: 0) {
+    .cardapio__titulo{
+        font-size: 25px;
+    }
+    .cardapio__itens{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .cardapio__simples{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+    }
+    .cardapio__completo{
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        margin: 20px;  
+    }
+}
+@media screen and (min-width: 600px) {
+    .cardapio__titulo{
+        font-size: 30px;
+    }
+    .cardapio__itens{
+        display: flex;
+        flex-direction: row;
+    }
+    .cardapio__simples{
+        margin: 20px;
+        height: 400px;
+        width: 400px; 
+    }
+    .cardapio__completo{
+        margin: 20px;
+        height: 400px;
+        width: 400px;
+    }
+
+}
+@media screen and (min-width: 0) {
+    .cardapio__descrição{
+        margin: 130px 0 0;
+    }
+}
+@media screen and (min-width: 600px) {
+    .cardapio__descrição{
+        margin: 230px 0 0;
+    }
+}

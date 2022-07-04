@@ -54,8 +54,6 @@
 }
 .cardapio__simples:hover, .cardapio__completo:hover{
     cursor: pointer;
-    width: 500px;
-    height: 500px;
     transform: scale(1.0);
 }
 @media screen and (min-width: 0) {
@@ -79,6 +77,14 @@
         height: 300px;
         margin: 20px;  
     }
+    .cardapio__simples:hover{
+        width: 350px;
+        height: 350px;   
+    }
+    .cardapio__completo:hover{
+        width: 350px;
+        height: 350px;   
+    }
 }
 @media screen and (min-width: 600px) {
     .cardapio__titulo{
@@ -98,15 +104,19 @@
         height: 400px;
         width: 400px;
     }
+    .cardapio__simples:hover{
+        width: 500px;
+        height: 500px;
+    }
+    .cardapio__completo:hover{
+        width: 500px;
+        height: 500px;
+    }
 
 }
 @media screen and (min-width: 0) {
     .cardapio__descrição{
         margin: 110px 0 0;
     }
-}
-@media screen and (min-width: 600px) {
-    .cardapio__descrição{
-        margin: 230px 0 0;
-    }
+   
 }

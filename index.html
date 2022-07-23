@@ -12,22 +12,26 @@
     <link rel="stylesheet" href="css/cadapio.css">
     <link rel="stylesheet" href="css/ifood-map.css">
     <link rel="stylesheet" href="css/roda-pé.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https: //fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap" rel="stylesheet">
-    <style>
-        @import url('https://fonts.googleapis.com/css2? family= Blaka+Hollow & display=swap');
-        </style>
-
+    <link rel="stylesheet" href="relogio.css">
+    
 </head>
 <body>
     
      <header class="menu">
-            <img src="css/imagem/bomlogo.png" alt="logo" class="logo">
+            <a href="index.html"><img src="css/imagem/bomlogo.png" alt="logo" class="logo"></a>
             <h4 class="menu__frase">Bem-Vindo, faça já seu pedido!</h4>
-                 <ul class="menu__lista">
-                     <li class="menu__aba">Contato</li>
-                 </ul>
+           
+            <div class="relogio">
+                <div>
+                    <p id="status" class="status"></p>
+                    <span id="horas" class="contador">00</span>
+                    <span class="contador">:</span>
+                    <span id="minutos" class="contador">00</span>
+                    <p class="funcionamento"></p>
+                </div>
+                
+                
+            </div>
     </header>
   
     <main class="conteudo__principal">
@@ -75,6 +79,7 @@
     <footer class="rod">
         <p>&copy; &lt /TR&gt Desenvolvimento</p>
     </footer>
-   
+    <script src="script.js"></script>
+ 
 </body>
 </html>

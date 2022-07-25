@@ -15,15 +15,17 @@ const relogio = setInterval(function time(){
     const onoff = document.querySelector('.status')
     const fcio = document.querySelector('.funcionamento')
 
-    if (hora >= 10) {
+    if (hora >= 10 && 15 <= hora) {
         onoff.textContent = "Estamos atendendo!"
         fcio.textContent = "Aberto até as 15 horas"  
     }
-    if(hora >= 15){
+    if(hora >= 15 && 10 <= hora){
         onoff.textContent = "Estamos Fechado"
         fcio.textContent = "Aberto as 10 horas"
     }
-    
+    function hors(params) {
+        
+    }
 
 
 })

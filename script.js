@@ -19,7 +19,7 @@ const relogio = setInterval(function time(){
         onoff.textContent = "Estamos atendendo!"
         fcio.textContent = "Aberto até as 15 horas"  
     }
-    if(hora <= 15){
+    if(hora >= 15){
         onoff.textContent = "Estamos Fechado"
         fcio.textContent = "Aberto as 10 horas"
     }
